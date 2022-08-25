@@ -125,6 +125,9 @@
                         <input type='text' name='hotelId' value=". $hotel->getId() ." hidden>
                         <button type='submit' name='book'>Book</button>
                     </form>
+                    <form action='Details.php' method='get'>
+                        <button type='submit' name='book'>Details</button>
+                    </form>
 
                 </div>
             ";
